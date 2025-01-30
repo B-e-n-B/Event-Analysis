@@ -18,11 +18,11 @@ import ast
 # ALSO data maybe not be going far enough back
 # so, you need to use flat files!
 
-symbollist = ['tsla', 'aapl', 'msft', 'spy', 'AUDUSD=X', 'X', 'bno', 'BTC', 'f', 'fxb', 'xom', 'nflx']
+symbollist = ['TLT', 'qqq', 'iwm', 'spy', 'eurusd=X', 'CL=F', '^VIX', 'BTC', 'NG=F', 'DX-Y.NYB', 'GC=F', 'RB=F']
 
-graphnamelist = ['Tesla Stock', 'Apple Stock', 'Microsoft Stock', 'S&P500 Index', 'AUS Dollar vs US Dollar',
-                  'X', 'Brent Crude Oil Futures', 'Bitcoin Futures', 'Ford Stock', 'GPB vs US Dollar', 
-                  'Exonn Mobil Stock', 'Netflix Stock']
+graphnamelist = ['20 Year Treasuries', 'Nasdaq', 'Russell 2000', 'S&P500 Index', 'EURUSD',
+                  'Crude Oil Futures', 'CBOE Volatility Index (VIX)', 'Bitcoin Futures', 'Natural Gas Futures',
+                  'US Dollar Index (DX-Y.NYB)', 'Gold Futures', 'RBOB Gasoline Futures']
 
 
 window = 3

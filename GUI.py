@@ -19,9 +19,9 @@ def load_image(image_path, size=(275, 220)):  # Adjust size as needed
 # Create 4x3 grid of images
 # Replace 'image1.png', 'image2.png', etc. with your actual image paths
 image_paths = [
-    'aapl_event_analysis.png', 'AUDUSD=X_event_analysis.png', 'bno_event_analysis.png', 'BTC_event_analysis.png',
-    'f_event_analysis.png', 'fxb_event_analysis.png', 'msft_event_analysis.png', 'nflx_event_analysis.png',
-    'spy_event_analysis.png', 'tsla_event_analysis.png', 'X_event_analysis.png', 'xom_event_analysis.png'
+    'TLT_event_analysis.png', 'qqq_event_analysis.png', 'iwm_event_analysis.png', 'spy_event_analysis.png',
+    'eurusd=X_event_analysis.png', 'CL=F_event_analysis.png', '^VIX_event_analysis.png', 'BTC_event_analysis.png',
+    'NG=F_event_analysis.png', 'DX-Y.NYB_event_analysis.png', 'GC=F_event_analysis.png', 'RB=F_event_analysis.png'
 ]
 
 # Store PhotoImage objects in a list to prevent garbage collection
